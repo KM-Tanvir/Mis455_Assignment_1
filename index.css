@@ -20,6 +20,8 @@ a{
     text-align: center;
     border-radius: 18px;
     padding: 5px;
+    text-decoration: none;
+    
 
 }
 a:hover{
@@ -30,4 +32,95 @@ a:hover{
 .active{
 
     background-color: rgb(10, 205, 140);
+}
+
+img{
+    width: 300px;
+}
+
+.type1{
+
+    margin: 10px;
+    padding: 5px
+
+}
+
+.type1:hover{
+
+    border-radius: 50%;
+    box-shadow: 3px 6px 30px rgb(153, 196, 88);
+
+}
+
+.type2{
+
+    border-radius: 5px;
+    box-shadow: 2px 4px 10px rgb(65, 65, 248);
+}
+
+
+.type2:hover{
+    zoom: 130%;
+}
+
+
+h1{
+
+    font-style: italic;
+    color: rgb(9, 161, 161);
+}
+
+
+p{
+    margin: 10px;
+    height: 50px;
+    width: 40px;
+    background-color: rgb(246, 177, 75);
+    border: 2px solid rgb(149, 157, 57);
+    text-align:center;
+}
+
+
+.grid{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+p1{
+    width: 50px;
+    background-color: rgb(224, 181, 118);
+    border: 3px solid rgb(149, 157, 57);
+    text-align:center;
+}
+
+.flex{
+
+    display: flex;
+    column-gap: 15px;
+
+}
+.fl{
+
+    margin: 3px;
+    width: 30px;
+}
+
+
+.afl{
+    display: block;
+    height: 10px;
+    width: 10px;
+
+    font-size: 10px;
+    background-color: none;
+    text-align:left;
+    color: black;
+    text-decoration:underline;
+
+
+}
+.afl:hover{
+    background-color: rgb(224, 181, 118);
 }
