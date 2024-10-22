@@ -1,0 +1,33 @@
+li{
+    float: left;
+}
+
+ul{
+
+    overflow: hidden;
+    list-style-type: none;
+    background-color: black;
+    border-radius: 30px;
+
+}
+
+a{
+
+    display: block;
+    height: 30px;
+    width: 100px;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 18px;
+    padding: 5px;
+
+}
+a:hover{
+
+    background-color: rgb(57, 130, 78);
+}
+
+.active{
+
+    background-color: rgb(10, 205, 140);
+}
